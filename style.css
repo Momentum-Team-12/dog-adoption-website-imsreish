@@ -14,22 +14,46 @@ body {
 }
 
 #topLevel {
+    /* add flexbox styling here. indicate sizing relative to screen width (100%). set flex-direction to column. set flex-wrap to nowrap. */
     background-color: fuchsia;
+    border: 2px dotted rgb(96, 139, 168);
 }
 
-.showcase {
+.dogRow {
+    /* add flexbox styling here. add buffers between child divs (??). set flex-direction to row. set flex-wrap to nowrap. */
     background-color: aquamarine;
+    border: 2px solid purple;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
 }
 
 .dogTile {
+    /* add flexbox styling here. set flex-direction to column. set ratio of img to h2 to ul. (percentages) set flex-wrap to nowrap. */
     background-color: peru;
+    border: 2px dotted green;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 30%;
+}
+
+.dogImg {
+    /* set container div properties for img here */
+}
+
+img {
+    /* add image sizing properties here. should take up 100% of its container div without distortion */
+    width: 100%;
 }
 
 .dogName {
     background-color: pink;
+    border: 2px solid purple;
     color: white;
 }
 
 .dogQualities {
     background-color: yellow;
+    border: 2px dotted black;
 }
