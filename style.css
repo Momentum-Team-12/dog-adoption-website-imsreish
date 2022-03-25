@@ -1,8 +1,35 @@
 body {
-    color: chartreuse
+    
 }
 #header {
+    color: #FFFFFF;
+    padding-left: 2%;
+    padding-right: 50%;
+    padding-top: 3%;
+    padding-bottom: 3%;
     background-color: #004175;
-    border-color: #89DEEF;
-    border-style: inherit;
+    border-bottom: solid;
+    border-bottom-color: #89DEEF;
+
+}
+
+#topLevel {
+    background-color: fuchsia;
+}
+
+.showcase {
+    background-color: aquamarine;
+}
+
+.dogTile {
+    background-color: peru;
+}
+
+.dogName {
+    background-color: pink;
+    color: white;
+}
+
+.dogQualities {
+    background-color: yellow;
 }
