@@ -13,10 +13,20 @@ body {
 
 }
 
-#topLevel {
+/* #topLevel {
     /* add flexbox styling here. indicate sizing relative to screen width (100%). set flex-direction to column. set flex-wrap to nowrap. */
     background-color: fuchsia;
     border: 2px dotted rgb(96, 139, 168);
+    display: flex;
+} */
+
+
+#dogDisplay {
+    /* add flexbox styling here. indicate sizing relative to screen width (100%). set flex-direction to column. set flex-wrap to nowrap. */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: fuchsia;
 }
 
 .dogRow {
@@ -24,8 +34,10 @@ body {
     background-color: aquamarine;
     border: 2px solid purple;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
 }
 
 .dogTile {
@@ -36,14 +48,19 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     width: 30%;
+    align-items: center;
 }
 
 .dogImg {
     /* set container div properties for img here */
+    width: 90%;
+    /* align-items: center;
+    justify-content: center; */
 }
 
 img {
     /* add image sizing properties here. should take up 100% of its container div without distortion */
+    object-fit: cover;
     width: 100%;
 }
 
@@ -51,9 +68,22 @@ img {
     background-color: pink;
     border: 2px solid purple;
     color: white;
+    width: 100%;
+    height: 10%;
+}
+
+.dogQualitiesContainer {
+    background-color: yellow;
+    border: 2px dotted black;
+    width: 100%;
+    height: 20%;
 }
 
 .dogQualities {
-    background-color: yellow;
-    border: 2px dotted black;
+    background-color: purple;
+    border: 2px dotted white;
+    width: 100%;
+    height: 50%;
+    list-style-type: none;
+    padding-left: 0px;
 }
