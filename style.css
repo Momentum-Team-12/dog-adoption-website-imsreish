@@ -1,3 +1,63 @@
+/* DEAD CODE HERE. DO NOT ERASE UNTIL CERTAIN IT IS NO LONGER NEEDED
+
+.dogTile {
+    background-color: peru;
+    border: 2px dotted green; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 30%;
+    /* align-items: left;
+    justify-content: center; */
+    /* min-width: 30%;
+    max-width: 50%; */
+    /* align-items: center; */
+    /* overflow: hidden; */
+
+/* 
+.dogImgContainer {
+    background-color: pink;
+    border: 2px dashed cyan;
+}
+
+img {
+    object-fit: cover;
+    overflow: hidden;
+    /* width: 50vh;
+    height: 50vh; */
+    /* width: 100%;
+    object-fit: contain;
+    
+} */
+
+/* .dogName {
+    background-color: pink;
+    font-family: Oswald;
+    border: 2px solid purple;
+    width: 100%;
+} */
+
+/* .dogQualitiesContainer {
+    background-color: yellow;
+    border: 2px dotted black;
+} */
+
+/* dt {
+    background-color: purple;
+    font-family: Open Sans;
+    font-size: small;
+    color: white;
+    background-color: #89DEEF;
+    border: 2px dotted white;
+    display: inline-flex;
+    align-self: flex-start;
+} */
+/* DEAD CODE ABOVE. DO NOT ERASE UNTIL CERTAIN IT IS NO LONGER NEEDED */ 
+
+
+
+
+
 #header {
     color: #FFFFFF;
     font-family: Open Sans;
@@ -11,83 +71,17 @@
 
 }
 
-#adoptBanner {
+#subHeader {
     /* background-color: fuchsia; */
     border: 2px dotted rgb(96, 139, 168);
     font-family: Open Sans;
 } 
 
-#dogDisplay {
-    /* display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    font-family: Open Sans; */
-    /* background-color: fuchsia; */
-}
-
 .dogRow {
-    /* background-color: aquamarine;
-    border: 2px solid purple; */
+    border: 2px solid purple;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    max-width: 1600px;
-}
-
-.dogTile {
-    /* background-color: peru;*/
-    border: 2px dotted green; 
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    width: 30%;
-    /* min-width: 30%;
-    max-width: 50%; */
-    /* align-items: center; */
-    /* overflow: hidden; */
-}
-
-/* .dogImg {
-    overflow: hidden;
-} */
-.dogImgContainer {
-    /* object-fit: cover;
-    overflow: hidden; */
-    /* flex: 1 1 auto;
-    height: 100%; */
-}
-
-img {
-    object-fit: cover;
-    overflow: hidden;
-    width: 50vh;
-    height: 50vh;
-    object-fit: contain;
-    
-}
-
-.dogName {
-    /* background-color: pink; */
-    font-family: Oswald;
-    /* border: 2px solid purple; */
-    width: 100%;
-}
-
-.dogQualitiesContainer {
-    /* background-color: yellow;
-    border: 2px dotted black; */
-}
-
-/* .dogQualities { */
-dt {
-    /* background-color: purple; */
-    font-family: Open Sans;
-    font-size: small;
-    color: white;
-    background-color: #89DEEF;
-    border: 2px dotted white;
-    display: inline-flex;
-    align-self: flex-start;
 }
