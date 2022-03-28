@@ -1,4 +1,4 @@
-/* DEAD CODE HERE. DO NOT ERASE UNTIL CERTAIN IT IS NO LONGER NEEDED
+/* SCRAP CODE HERE. DO NOT ERASE UNTIL CERTAIN IT IS NO LONGER NEEDED
 
 .dogTile {
     background-color: peru;
@@ -52,11 +52,7 @@ img {
     display: inline-flex;
     align-self: flex-start;
 } */
-/* DEAD CODE ABOVE. DO NOT ERASE UNTIL CERTAIN IT IS NO LONGER NEEDED */ 
-
-
-
-
+/* SCRAP CODE ABOVE. DO NOT ERASE UNTIL CERTAIN IT IS NO LONGER NEEDED */ 
 
 #header {
     color: #FFFFFF;
@@ -68,14 +64,19 @@ img {
     background-color: #004175;
     border-bottom: solid;
     border-bottom-color: #89DEEF;
-
 }
 
-#subHeader {
-    /* background-color: fuchsia; */
-    border: 2px dotted rgb(96, 139, 168);
+.subHeader h1 {
     font-family: Open Sans;
-} 
+    padding-left: 2%;
+    border: 1px solid black;
+}
+
+.subHeader p {
+    font-family: Open Sans;
+    padding-left: 2%;
+    border: 1px solid black;
+}
 
 .dogRow {
     border: 2px solid purple;
@@ -84,4 +85,61 @@ img {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+/* DO NOT MODIFY ABOVE code */
+
+.dogTile {
+    border: 1px dashed fuchsia;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    width: 33vw;
+    height: 33vw;
+    padding: 0.5%;
+}
+
+.dogTile img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.dogTile h1 {
+    font-family: Oswald;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.dogTile dl {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 0%;
+}
+
+.dogTile dt {
+    font-family: Open Sans;
+    font-size: small;
+    color: black;
+    background-color: #89DEEF;
+    padding-top: 0.8vh;
+    padding-bottom: 0.8vh;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    border-bottom-left-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    margin-right: 1vh;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0%;
+    width: 100vw;
+    height: 10vh;
+    border: 2px solid red;
+    
 }
