@@ -2,6 +2,18 @@
 
 # Build a Dog Adoption Site
 
+# What is done
+
+Created header and body. Added content and styling to header and body.
+
+# What is missing
+
+Footer. Code is present but is commented out due to various issues.
+
+# What is partially broken
+
+There is an issue where the dl/dt lists are overflowing outside of their container divs.
+
 ## Directions
 
 Your task is to build one page for an animal shelter. You will need to build the HTML and CSS to make this page. The page should look like the following:
